@@ -1,4 +1,5 @@
 Author: Grace Yu, Ting Li, Josh Speagle, Gustavo Medina (U of Toronto)
+
 Code developed for Yu, Li, Speagle et al. 2024.
 
 Notebook1: Given the DES dataset
@@ -7,6 +8,7 @@ Notebook1: Given the DES dataset
 3)output probabilities of BHB, BS, and outlier for each object.
 
 INPUT: DES dataset "DES_DR2_hot_stars.fits"
+
 OUTPUT: "processed_DES.fits" (from step 2), "data_with_probability.fits" (from step 3), "mixture_model_coefficients.npy" (from step 3)
 
 
@@ -17,6 +19,7 @@ Notebook2: Given the probability of BHB, BS, outlier for each star and probabili
 4) Compare with other literature values
 
 INPUT:"data_with_probability.fits"
+
 OUTPUT: "BHB_catalog.fits" (from step 1), "entire_catalog.csv" (which contains all sources with their BHB probability and distances, but with fewer columns and the numbers are rounded, same as Table 3 in the paper.)
 
 NOTE: 
