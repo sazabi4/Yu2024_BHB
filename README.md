@@ -1,5 +1,7 @@
 Author: Grace Yu, Ting Li, Josh Speagle, Gustavo Medina (U of Toronto)
 
+<ting.li@astro.utoronto.ca>
+
 Code developed for Yu, Li, Speagle et al. 2024.
 
 Notebook1: Given the DES dataset
@@ -7,7 +9,7 @@ Notebook1: Given the DES dataset
 2)develop a mixture model (hierarchical bayesian model) using the photometries  (Dynesty Sampling takes around 5 hours using 100 CPUs)
 3)output probabilities of BHB, BS, and outlier for each object.
 
-INPUT: "DES_DR2_hot_stars.fits" (a datafile contains dereddened photometry from DES DR2 with blue star sample)
+INPUT: "DES_DR2_hot_stars.fits" (A datafile contains dereddened photometry from DES DR2 with blue star sample. This file is not available on github as it is too big for GitHub. Please contact Ting for the file if you need, but you could also download from DES or NOIRLab Datalab.)
 
 OUTPUT: "processed_DES.fits" (from step 2), "data_with_probability.fits" (from step 3), "mixture_model_coefficients.npy" (from step 3)
 
