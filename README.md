@@ -7,7 +7,7 @@ Notebook1: Given the DES dataset
 2)develop a mixture model (hierarchical bayesian model) using the photometries  (Dynesty Sampling takes around 5 hours using 100 CPUs)
 3)output probabilities of BHB, BS, and outlier for each object.
 
-INPUT: DES dataset "DES_DR2_hot_stars.fits"
+INPUT: "DES_DR2_hot_stars.fits" (a datafile contains dereddened photometry from DES DR2 with blue star sample)
 
 OUTPUT: "processed_DES.fits" (from step 2), "data_with_probability.fits" (from step 3), "mixture_model_coefficients.npy" (from step 3)
 
